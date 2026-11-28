@@ -1,0 +1,109 @@
+,OS: Windows 11 | Browser: Chrome 157 | Resolution: 1920x1032 | Time: 21 Nov 2026 / 2:22:47  GMT+7
+
+"#","Step","Data","Exp Result","Act Result","XPath","cssSelector"
+"✓
+1","Open website","https://matraarsip.co.id/","""MATRA"" page loads successfully.","Step executed successfully.","",""
+"✓
+2","Click on ""USER LOGIN ""","","User is logged in successfully.","Step executed successfully.","//section[@class='login-block']",".login-block"
+"✓
+3","Click on ""Home (current)""","","""matraarsip.co.id home"" page is displayed.","Step executed successfully.","//a[@href='https://matraarsip.co.id/']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+"✓
+4","Click on ""MASUK""","","""MASUK"" action is performed and the page updates accordingly.","Step executed successfully.","//button[normalize-space()='MASUK']",".btn.btn-primary.btn-lg.px-5"
+"✓
+5","Click on ""Home (current)""","","""matraarsip.co.id home"" page is displayed.","Step executed successfully.","//a[@href='https://matraarsip.co.id/']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)"
+"✓
+6","Click on ""×""","","""×"" closes the current panel without saving changes.","Step executed successfully.","//button[@aria-label='Close']","button[aria-label='Close']"
+"✓
+7","Click on ""Penyimpanan dan Perawatan Arsip""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Penyimpanan dan Perawatan Arsip']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(1)"
+"✓
+8","Click on ""Penyimpanan Barang""","","""Penyimpanan Dokumen"" page is displayed.","Step executed successfully.","//a[normalize-space()='Penyimpanan Barang']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(2)"
+"✓
+9","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+10","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+11","Click on ""Services""","","""Services"" menu opens and shows its options.","Step executed successfully.","//li[@class='nav-item dropdown nav-item-padding open']//a[@id='navbarDropdown']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+"✓
+12","Click on ""Pemilahan dan Penataan Arsip""","","""Pemilahan"" page is displayed.","Step executed successfully.","//a[normalize-space()='Pemilahan dan Penataan Arsip']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(3)"
+"✓
+13","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+14","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+15","Click on ""Penyimpanan Barang Fisik""","","""Penyimpanan Dokumen"" page is displayed.","Step executed successfully.","//a[normalize-space()='Penyimpanan Barang Fisik']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(4)"
+"✓
+16","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+17","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+18","Click on ""Pemusnahan""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Pemusnahan']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(5)"
+"✓
+19","Click on ""Pemusnahan""","","""Pemusnahan"" page is displayed.","Step executed successfully.","//a[normalize-space()='Pemusnahan']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(5)"
+"✓
+20","Click on ""Services""","","""Services"" menu opens and shows its options.","Step executed successfully.","//li[@class='nav-item dropdown nav-item-padding open']//a[@id='navbarDropdown']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)"
+"✓
+21","Click on ""Scan & Digital Service""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Scan & Digital Service']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) > a:nth-child(6)"
+"✓
+22","Click on ""Brosur""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Brosur']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)"
+"✓
+23","Click on ""Download Brosur""","","File download starts.","Step executed successfully.","//div[@class='row']//div[1]//div[1]//div[2]//button[1]","body > section:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+"✓
+24","Click on ""Download Brosur""","","File download starts.","Step executed successfully.","//div[@class='row']//div[1]//div[1]//div[2]//button[1]","body > section:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+"✓
+25","Click on ""Download Brosur""","","File download starts.","Step executed successfully.","//div[@class='row']//div[1]//div[1]//div[2]//button[1]","body > section:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+"✓
+26","Click on ""Download Brosur""","","File download starts.","Step executed successfully.","//div[@class='row']//div[1]//div[1]//div[2]//button[1]","body > section:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+"✓
+27","Click on ""Download Brosur""","","File download starts.","Step executed successfully.","//div[@class='row']//div[1]//div[1]//div[2]//button[1]","body > section:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)"
+"✓
+28","Click on ""Profil Perusahaan""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Profil Perusahaan']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(2) > a:nth-child(1)"
+"✓
+29","Click on ""Sejarah""","","""MATRA"" page is displayed.","Step executed successfully.","//a[normalize-space()='Sejarah']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(2) > a:nth-child(2)"
+"✓
+30","Click on ""Visi dan Misi""","","""Vision"" page is displayed.","Step executed successfully.","//a[normalize-space()='Visi dan Misi']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(2) > a:nth-child(3)"
+"✓
+31","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+32","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+33","Click on ""Galeri""","","""Gallery"" page is displayed.","Step executed successfully.","//a[normalize-space()='Galeri']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(2) > a:nth-child(5)"
+"✓
+34","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+35","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+36","Click on ""Keuntungan Bergabung dengan Kami""","","""Why"" page is displayed.","Step executed successfully.","//a[normalize-space()='Keuntungan Bergabung dengan Kami']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(2) > a:nth-child(6)"
+"✓
+37","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+38","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+39","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+40","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+41","Click on ""Contact Us""","","""Embed"" page is displayed.","Step executed successfully.","//a[normalize-space()='Contact Us']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)"
+"✗
+42","Click on ""KeystrokeAction←Move left→Move right↑Move up↓Move down+Zoom in-Zoom outHomeJump left by 75%EndJump r""","","""KeystrokeAction←Move left→Move right↑Move up↓Move…"" is selected and the ""MATRA"" page is displayed.","Failed: Locator not found for action: clickAt","//body//embed-place-card-element","body > embed-place-card-element:nth-child(1)"
+"✓
+43","Click on ""info@matraarsip.co.id""","","""Info@Matraarsip.Co.Id"" page is displayed.","Step executed successfully.","//a[normalize-space()='info@matraarsip.co.id']","a[href='mailto:info@matraarsip.co.id']"
+"✓
+44","Click on ""info@matraarsip.co.id""","","""Info@Matraarsip.Co.Id"" page is displayed.","Step executed successfully.","//a[normalize-space()='info@matraarsip.co.id']","a[href='mailto:info@matraarsip.co.id']"
+"✓
+45","Click on ""Privacy Policy""","","""Privacy"" page is displayed.","Step executed successfully.","//a[normalize-space()='Privacy Policy']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)"
+"✓
+46","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","",""
+"✓
+47","Scroll up","","Page scrolls up and earlier content is visible.","Step executed successfully.","",""
+"✓
+48","Navigate back","","Previous page is displayed.","Step executed successfully.","",""
+"✓
+49","Click on ""Term of Use""","","""Privacy"" page is displayed.","Step executed successfully.","//a[normalize-space()='Term of Use']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+"✓
+50","Navigate back","","","Step executed successfully.","",""
+"✓
+51","Click on ""Term of Use""","","","Step executed successfully.","//a[normalize-space()='Term of Use']","body > section:nth-child(2) > div:nth-child(2) > nav:nth-child(1) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)"
+"✓
+52","Scroll down","","Page scrolls down and further content is visible.","Step executed successfully.","//a[contains(text(),'Term of Use')]","a"
+"✗
+53","Click on ""Matra Arsip | QnA×Silahkan bertanya""","","""Matra Arsip | QnA×Silahkan bertanya"" is selected and the related content is displayed.","Failed: Unexpected error during ""clickAt"": el.click is not a function","/html[1]/body[1]/div[1]/div[1]/*[name()='svg'][1]/*[name()='g'][1]/*[name()='g'][1]/*[name()='path'][1]","path[d=' M 787.59 800 L 12.41 800 C 5.556 800 0 793.332 0 785.108 L 0 14.892 C 0 6.667 5.556 0 12.41 0 L 787.59 0 C 794.444 0 800 6.667 800 14.892 L 800 785.108 C 800 793.332 794.444 800 787.59 800 Z ']"
